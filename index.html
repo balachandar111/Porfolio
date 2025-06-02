@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Balachandar S - Software Developer Portfolio</title>
+    <meta name="description" content="Professional portfolio of Balachandar S, a Computer Science graduate specializing in Python, Django, and web development.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lucide/0.263.1/lucide.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-text">Balachandar S</span>
+                </div>
+                <nav class="nav">
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#experience" class="nav-link">Experience</a>
+                    <a href="#projects" class="nav-link">Projects</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#education" class="nav-link">Education</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+                <div class="header-actions">
+                    <div class="theme-toggle-wrapper">
+                        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                            <i data-lucide="sun" class="sun-icon"></i>
+                            <i data-lucide="moon" class="moon-icon"></i>
+                        </button>
+                        <div class="theme-dropdown" id="themeDropdown">
+                            <button class="theme-option" data-theme="light">Light</button>
+                            <button class="theme-option" data-theme="dark">Dark</button>
+                            <button class="theme-option" data-theme="system">System</button>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn btn-outline btn-sm contact-btn">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title">
+                            Hi, I'm <span class="text-primary">Balachandar S</span>
+                        </h1>
+                        <h2 class="hero-subtitle">Software Developer</h2>
+                        <p class="hero-description">
+                            Highly motivated Computer Science graduate with a passion for innovative software development. Skilled in Python and Java programming, web application development, database design, and software debugging. Quick learner, adaptable to new technologies, with strong problem-solving and analytical skills.
+                        </p>
+                        <div class="hero-actions">
+                            <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                            <a href="#projects" class="btn btn-outline">View Projects</a>
+                        </div>
+                    </div>
+                    <div class="hero-avatar">
+                        <div class="avatar">
+                            <img src="C:\Users\clust\Downloads\portfolio (1)\photo2.jpg" alt="Balachandar S" class="avatar-image">
+                     
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/balachandar" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i data-lucide="github"></i>
+                        <span class="sr-only">GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com/in/balachandar" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i data-lucide="linkedin"></i>
+                        <span class="sr-only">LinkedIn</span>
+                    </a>
+                    <a href="mailto:balachandarsanthoshkumar111@gmail.com" class="social-link">
+                        <i data-lucide="mail"></i>
+                        <span class="sr-only">Email</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="about-content">
+                    <div class="about-card">
+                        <p class="about-intro">
+                            I'm a passionate <span class="text-primary">Software Developer</span> with specialized
+                            expertise in Python, Django, and full-stack web development.
+                        </p>
+                        <div class="about-text">
+                            <p>
+                                As a Computer Science graduate from Tagore Engineering College with a CGPA of 8.02/10, I bring a strong academic foundation combined with practical experience in software development. My journey began with a curiosity about how technology can solve real-world problems, which has evolved into a passion for creating innovative software solutions.
+                            </p>
+                            <p>
+                                Through my internships at Cluster Tech and GB Tech Corp, I've gained hands-on experience in frontend development, Django web applications, and database management. I've successfully delivered projects ranging from company websites to e-learning platforms, always focusing on creating user-friendly and responsive interfaces.
+                            </p>
+                            <blockquote class="quote">
+                                <p>
+                                    I believe in continuous learning and staying updated with the latest technologies. My goal is to contribute fresh ideas while growing professionally in a collaborative environment.
+                                </p>
+                            </blockquote>
+                            <p>
+                                Beyond coding, I'm actively involved in community service as a member of the National Service Scheme (NSS) and have organized technical events like Web Blitz at my college symposium. I'm committed to delivering high-quality results and am always eager to take on new challenges that push the boundaries of what I can create.
+                            </p>
+                        </div>
+                        <div class="about-actions">
+                            <a href="#projects" class="btn btn-primary">
+                                <span>View My Work</span>
+                                <i data-lucide="external-link"></i>
+                            </a>
+                            <a href="https://drive.google.com/file/d/1DljFVmpb_7Ne3p-GLY6Y-VVNXkBtH0Sd/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                                Download Resume
+                                <i data-lucide="external-link"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Work Experience</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="experience-grid">
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div class="experience-title-section">
+                                <h3 class="experience-title">
+                                    <span class="text-primary">Frontend Intern</span> at <span class="company">Cluster Tech</span>
+                                </h3>
+                                <div class="experience-meta">
+                                    <i data-lucide="map-pin"></i>
+                                    <span>Cuddalore, Tamil Nadu • Internship</span>
+                                </div>
+                            </div>
+                            <span class="experience-period">December 2024 - Present</span>
+                        </div>
+                        <div class="experience-content">
+                            <p class="experience-description">
+                                Currently working as a Frontend Intern, contributing to website development for ThriveTech and ClusterTech.
+                            </p>
+                            <div class="responsibilities">
+                                <h4>Key Responsibilities:</h4>
+                                <ul>
+                                    <li>Contributed to the website development for ThriveTech and ClusterTech using modern frontend technologies.</li>
+                                    <li>Worked with modern frontend technologies to create user-friendly and responsive interfaces.</li>
+                                    <li>Collaborated with the development team to implement design solutions and improve website functionality.</li>
+                                    <li>Ensured cross-browser compatibility and mobile responsiveness across all developed websites.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="experience-card">
+                        <div class="experience-header">
+                            <div class="experience-title-section">
+                                <h3 class="experience-title">
+                                    <span class="text-primary">Web Developer Intern</span> at <span class="company">GB Tech Corp</span>
+                                </h3>
+                                <div class="experience-meta">
+                                    <i data-lucide="map-pin"></i>
+                                    <span>Chennai, Tamil Nadu • Internship</span>
+                                </div>
+                            </div>
+                            <span class="experience-period">July 2021 - August 2021</span>
+                        </div>
+                        <div class="experience-content">
+                            <p class="experience-description">
+                                Completed intensive training in web development technologies and delivered multiple projects including an E-commerce website and Udemy clone.
+                            </p>
+                            <div class="responsibilities">
+                                <h4>Key Responsibilities:</h4>
+                                <ul>
+                                    <li>Trained in HTML, CSS, JavaScript, Bootstrap, Python Django, SQLite, and MySQL.</li>
+                                    <li>Developed an E-commerce website using Django framework with MySQL database integration.</li>
+                                    <li>Created a Udemy clone platform with comprehensive e-learning features.</li>
+                                    <li>Delivered all projects on time with quality and dedication, meeting client requirements.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Projects</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="C:\Users\clust\Downloads\portfolio (1)\thrivmockup.jpg" alt="Thrive-Tech Website">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">Thrive-Tech Website</h3>
+                                <span class="project-period">2024</span>
+                            </div>
+                            <p class="project-description">
+                                Developed a comprehensive company website using Python Django framework with HTML, CSS, and JavaScript. Successfully hosted on Hostinger with optimized performance and responsive design.
+                            </p>
+                            <div class="project-technologies">
+                                <span class="tech-badge">Python Django</span>
+                                <span class="tech-badge">HTML5</span>
+                                <span class="tech-badge">CSS3</span>
+                                <span class="tech-badge">JavaScript</span>
+                                <span class="tech-badge">Hostinger</span>
+                            </div>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn btn-ghost btn-sm project-details-btn" data-project="thrive-tech">View Details</button>
+                            <div class="project-links">
+                                <a href="https://thrivetech.info/" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    <i data-lucide="external-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="C:\Users\clust\Downloads\portfolio (1)\CTprojectIMG.jpg" alt="ClusterTech Website">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">ClusterTech Website</h3>
+                                <span class="project-period">2024</span>
+                            </div>
+                            <p class="project-description">
+                                Created a modern company website for ClusterTech using Python Django framework. Implemented responsive design principles and deployed on Hostinger for optimal performance.
+                            </p>
+                            <div class="project-technologies">
+                                <span class="tech-badge">Python Django</span>
+                                <span class="tech-badge">HTML5</span>
+                                <span class="tech-badge">CSS3</span>
+                                <span class="tech-badge">JavaScript</span>
+                                <span class="tech-badge">Hostinger</span>
+                            </div>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn btn-ghost btn-sm project-details-btn" data-project="cluster-tech">View Details</button>
+                            <div class="project-links">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    <i data-lucide="external-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="C:\Users\clust\Downloads\portfolio (1)\assesment.png" alt="Assessment Platform">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">Assessment Platform</h3>
+                                <span class="project-period">2024</span>
+                            </div>
+                            <p class="project-description">
+                                Built a full-stack web application for online assessments using Django framework and MongoDB. Features include user authentication, test creation, and automated grading system.
+                            </p>
+                            <div class="project-technologies">
+                                <span class="tech-badge">Django</span>
+                                <span class="tech-badge">MongoDB</span>
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">HTML/CSS</span>
+                                <span class="tech-badge">JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn btn-ghost btn-sm project-details-btn" data-project="assessment-platform">View Details</button>
+                            <div class="project-links">
+                                <a href="https://github.com/Nithishkumar2004/Hexaware-hackathon.git" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    <i data-lucide="github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="C:\Users\clust\Downloads\portfolio (1)\udemy.png" alt="Udemy Clone">
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">Udemy Clone</h3>
+                                <span class="project-period">2021</span>
+                            </div>
+                            <p class="project-description">
+                                Developed a comprehensive e-learning platform with OpenAI integration for auto-responses. Features include course management, user enrollment, and interactive learning modules.
+                            </p>
+                            <div class="project-technologies">
+                                <span class="tech-badge">Django</span>
+                                <span class="tech-badge">MySQL</span>
+                                <span class="tech-badge">OpenAI API</span>
+                                <span class="tech-badge">HTML5</span>
+                                <span class="tech-badge">CSS3</span>
+                                <span class="tech-badge">JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="project-actions">
+                            <button class="btn btn-ghost btn-sm project-details-btn" data-project="udemy-clone">View Details</button>
+                            <div class="project-links">
+                                <a href="https://github.com/dk172923/online-learning-platform.git" target="_blank" rel="noopener noreferrer" class="project-link">
+                                    <i data-lucide="github"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Technical Skills</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="skills-card">
+                    <div class="skills-tabs">
+                        <button class="skills-tab active" data-tab="languages">Languages</button>
+                        <button class="skills-tab" data-tab="frameworks">Frameworks</button>
+                        <button class="skills-tab" data-tab="databases">Databases</button>
+                        <button class="skills-tab" data-tab="tools">Tools</button>
+                    </div>
+                    <div class="skills-content">
+                        <div class="skills-panel active" id="languages">
+                            <h3 class="skills-category-title">Programming Languages</h3>
+                            <div class="skills-grid">
+                                <div class="skill-badge advanced">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-badge advanced">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-badge advanced">
+                                    <span class="skill-name">HTML5</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-badge advanced">
+                                    <span class="skill-name">CSS3</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-badge intermediate">
+                                    <span class="skill-name">Java</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-badge intermediate">
+                                    <span class="skill-name">C</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-badge intermediate">
+                                    <span class="skill-name">C#</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-panel" id="frameworks">
+                            <h3 class="skills-category-title">Frameworks & Libraries</h3>
+                            <div class="skills-grid">
+                                <div class="skill-badge advanced">
+                                    <span class="skill-name">Django</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-badge intermediate">
+                                    <span class="skill-name">React JS</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-badge intermediate">
+                                    <span class="skill-name">Express JS</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-badge advanced">
+                                    <span class="skill-name">Bootstrap</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-panel" id="databases">
+                            <h3 class="skills-category-title">Databases</h3>
+                            <div class="skills-grid">
+                                <div class="skill-badge advanced">
+                                    <span class="skill-name">MySQL</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-badge intermediate">
+                                    <span class="skill-name">MongoDB</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-badge intermediate">
+                                    <span class="skill-name">SQLite</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills-panel" id="tools">
+                            <h3 class="skills-category-title">Tools & Technologies</h3>
+                            <div class="skills-grid">
+                                <div class="skill-badge advanced">
+                                    <span class="skill-name">VS Code</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-badge advanced">
+                                    <span class="skill-name">GitHub</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-badge intermediate">
+                                    <span class="skill-name">Eclipse</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-badge intermediate">
+                                    <span class="skill-name">Selenium</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-badge intermediate">
+                                    <span class="skill-name">TestNG</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-badge advanced">
+                                    <span class="skill-name">Web Hosting</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-badge intermediate">
+                                    <span class="skill-name">VPS Hosting</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Education</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="education-grid">
+                    <div class="education-card">
+                        <div class="education-header">
+                            <div class="education-info">
+                                <h3 class="education-institution">Tagore Engineering College</h3>
+                                <p class="education-degree">B.E Computer Science Engineering</p>
+                                <div class="education-details">
+                                    <p class="education-gpa">CGPA: 8.02/10</p>
+                                    <p class="education-activity">Member of National Service Scheme (NSS)</p>
+                                </div>
+                            </div>
+                            <span class="education-period">2021 - 2025</span>
+                        </div>
+                        <p class="education-description">
+                            Currently pursuing Bachelor's degree in Computer Science Engineering with a strong focus on software development, algorithms, and data structures. Active member of NSS contributing to community service initiatives.
+                        </p>
+                    </div>
+
+                    <div class="education-card">
+                        <div class="education-header">
+                            <div class="education-info">
+                                <h3 class="education-institution">Anandhan Memorial Higher Secondary School</h3>
+                                <p class="education-degree">Higher Secondary Education (PCM)</p>
+                                <div class="education-details">
+                                    <p class="education-gpa">Score: 87%</p>
+                                </div>
+                            </div>
+                            <span class="education-period">2019 - 2021</span>
+                        </div>
+                        <p class="education-description">
+                            Completed Higher Secondary Education with Physics, Chemistry, and Mathematics stream. Achieved 87% in final board examinations.
+                        </p>
+                    </div>
+
+                    <div class="education-card">
+                        <div class="education-header">
+                            <div class="education-info">
+                                <h3 class="education-institution">MountPark Higher Secondary School</h3>
+                                <p class="education-degree">Secondary School Certificate</p>
+                                <div class="education-details">
+                                    <p class="education-gpa">Score: 82%</p>
+                                </div>
+                            </div>
+                            <span class="education-period">2019</span>
+                        </div>
+                        <p class="education-description">
+                            Completed secondary education with 82% in board examinations, building a strong foundation in mathematics and sciences.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Achievements Section -->
+                <div class="achievements-section">
+                    <h3 class="achievements-title">Achievements</h3>
+                    <div class="achievements-grid">
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i data-lucide="trophy"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4 class="achievement-title">First Prize - Software Testing Hackathon</h4>
+                                <p class="achievement-description">
+                                    Won first prize in ingage Software Testing Hackathon for Naan Mudhalvan course, demonstrating excellence in software testing methodologies and problem-solving skills.
+                                </p>
+                                <span class="achievement-organizer">Organized by ingage (Naan Mudhalvan)</span>
+                            </div>
+                        </div>
+                        <div class="achievement-card">
+                            <div class="achievement-icon">
+                                <i data-lucide="users"></i>
+                            </div>
+                            <div class="achievement-content">
+                                <h4 class="achievement-title">Event Organizer - Web Blitz</h4>
+                                <p class="achievement-description">
+                                    Successfully organized Web Blitz Event in Tagore Engineering College Symposium (Techfest'21), showcasing leadership and event management skills.
+                                </p>
+                                <span class="achievement-organizer">Tagore Engineering College</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="section-divider"></div>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info-card">
+                        <h3 class="contact-card-title">Contact Information</h3>
+                        <p class="contact-card-description">Feel free to reach out through any of these channels</p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i data-lucide="mail"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <p class="contact-label">Email</p>
+                                    <p class="contact-value">balachandarsanthoshkumar111@gmail.com</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i data-lucide="phone"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <p class="contact-label">Phone</p>
+                                    <p class="contact-value">+91 9629036796</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i data-lucide="map-pin"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <p class="contact-label">Location</p>
+                                    <p class="contact-value">Chennai,Tamil Nadu, India</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i data-lucide="globe"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <p class="contact-label">Languages</p>
+                                    <p class="contact-value">Tamil, English</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-profiles">
+                            <p class="social-profiles-title">Social Profiles</p>
+                            <div class="social-profiles-links">
+                                <a href="https://github.com/balachandar" target="_blank" rel="noopener noreferrer" class="social-profile-link">
+                                    <i data-lucide="github"></i>
+                                </a>
+                                <a href="https://linkedin.com/in/balachandar" target="_blank" rel="noopener noreferrer" class="social-profile-link">
+                                    <i data-lucide="linkedin"></i>
+                                </a>
+                                <a href="mailto:balachandarsanthoshkumar111@gmail.com" class="social-profile-link">
+                                    <i data-lucide="mail"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-card">
+                        <h3 class="contact-card-title">Send Me a Message</h3>
+                        <p class="contact-card-description">I'll get back to you as soon as possible</p>
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" id="name" name="name" placeholder="Your name" class="form-input" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" id="email" name="email" placeholder="Your email" class="form-input" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject</label>
+                                <input type="text" id="subject" name="subject" placeholder="Message subject" class="form-input" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea id="message" name="message" placeholder="Your message" rows="4" class="form-textarea" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">
+                    &copy; <span id="currentYear"></span> Balachandar S. All rights reserved.
+                </p>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="modalTitle"></h3>
+                <button class="modal-close" id="modalClose">
+                    <i data-lucide="x"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalImage" src="/placeholder.svg" alt="">
+                </div>
+                <div class="modal-info">
+                    <p class="modal-period" id="modalPeriod"></p>
+                    <p class="modal-description" id="modalDescription"></p>
+                    <div class="modal-technologies" id="modalTechnologies"></div>
+                    <div class="modal-links" id="modalLinks"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
